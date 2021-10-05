@@ -1,4 +1,6 @@
 const fs = require('fs')
 const request = require('request')
 request('https://outlier-coding-test-data.netlify.app/students.db').pipe(fs.createWriteStream('students.db'))
+request('https://outlier-coding-test-data.netlify.app/grades.json').pipe(fs.createWriteStream('grades.json'))
+console.log('Fetching grades.json...')
 console.log('Fetching students.db...')
