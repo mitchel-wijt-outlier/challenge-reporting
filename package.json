@@ -13,7 +13,9 @@
     "blocked-at": "^1.2.0",
     "express": "^4.17.1",
     "inspector-api": "^1.4.1",
+    "JSONStream": "^1.3.5",
     "knex": "^0.21.21",
+    "lodash": "^4.17.21",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
